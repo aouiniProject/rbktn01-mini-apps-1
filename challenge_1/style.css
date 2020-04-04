@@ -1,0 +1,10 @@
+#game {
+  display: grid;
+  grid-template-columns: 188px 188px 188px;
+  grid-template-rows: 188px 188px 188px;
+  grid-gap: 20px
+}
+
+.choices {
+  background-color: blueviolet;
+}
