@@ -1,0 +1,19 @@
+#board {
+  margin-left: 340px;
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 80px 80px 80px;
+  grid-gap: 10px;
+  background-color: rgb(66, 188, 245);
+  color: rgb(66, 188, 245);
+  width: 620px;
+  padding: 20px;
+
+}
+
+.elements {
+  background-color: white;
+  border-radius: 50%;
+
+
+}
