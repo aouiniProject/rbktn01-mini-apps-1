@@ -1,8 +1,9 @@
-#board {
+#cols {
   margin-left: 340px;
   display: grid;
+  /* grid-template-columns: auto; */
+
   grid-template-columns: 80px 80px 80px 80px 80px 80px 80px;
-  grid-template-rows: 80px 80px 80px 80px 80px 80px;
   grid-gap: 10px;
   background-color: rgb(66, 188, 245);
   color: rgb(66, 188, 245);
@@ -10,6 +11,19 @@
   padding: 20px;
 
 }
+
+
+
+.columns{
+  grid-template-rows: 80px 80px 80px 80px 80px 80px;
+  display: grid;
+  grid-gap: 10px;
+  
+  /* grid-template-rows: 80px 80px 80px 80px 80px 80px 80px; */
+
+
+}
+
 
 .elements {
   background-color: white;
